@@ -1,0 +1,19 @@
+@media screen and (max-width: 700px) {
+	img{
+		width: 50%;
+	}
+	main .container{
+		display: flex;
+		flex-direction: column;
+	}	
+
+	.container p{
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.descricao-detalhada{
+		width: 50%;
+	}
+}
